@@ -1,7 +1,7 @@
 <script setup>
 import { RouterLink } from 'vue-router'
 
-const profileSrc = '/src/assets/Me.png'
+import profileSrc from '../assets/Me.png';
 </script>
 
 <template>
@@ -185,12 +185,12 @@ const profileSrc = '/src/assets/Me.png'
 
 
 .about-title {
+    color: var(--text);
     font-size: 1.8rem;
     margin: 0 0 12px 0;
     background: linear-gradient(90deg, var(--neon-primary), var(--neon-secondary));
     -webkit-background-clip: text;
     background-clip: text;
-    -webkit-text-fill-color: transparent;
     display: inline-block;
     font-weight: 700;
 }
