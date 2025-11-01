@@ -18,8 +18,8 @@ import profileSrc from '../assets/Me.png';
           <li>🧪 AI & VR Experiments</li>
         </ul>
         <div class="landing-cta">
-          <a href="#projects" class="cta">View Projects</a>
-          <a href="#contact" class="cta ghost">Contact Me</a>
+          <a href="/projects" class="cta">View Projects</a>
+          <a href="/contact" class="cta ghost">Contact Me</a>
         </div>
       </div>
       <div class="visual-block">
