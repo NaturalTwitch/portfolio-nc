@@ -75,9 +75,46 @@ import profileSrc from '../assets/Me.png';
                     </li>
                 </ul>
 
+                <h3 class="about-subtitle">My Journey</h3>
                 <p class="closing">
-                    I love anything that involves space, and solving boring problems with clever automation. If
-                    you want something simple and
+                    I started coding about five years ago — not for a job or school, but because I wanted a Discord bot
+                    that could play music after Rythm got shut down. I had no idea what I was doing, but I found a
+                    tutorial and just started building.
+                </p>
+
+
+                <p class="closing">
+                    The first version of <em>Mursy</em> barely worked. I couldn’t even get music commands to function,
+                    so I focused on easier stuff — moderation, fun interactions, random utilities. Over time I kept
+                    pushing, learning from feedback, and adding new ideas. It took a year before I finally got the music
+                    system working properly.
+                </p>
+
+
+                <p class="closing">
+                    Eventually, Mursy grew into something real — verified by Discord, used by thousands, and rewritten
+                    multiple times to improve stability and features. That process taught me more than any course could:
+                    APIs, networking, automation, databases, and how to actually ship and maintain a project people rely
+                    on.
+                </p>
+
+
+                <p class="closing">
+                    Since then, I’ve expanded beyond bots — building tools like the <em>Mursy Anti‑DDoS Dashboard</em>,
+                    an invoicing platform, and my own hosting infrastructure. My mindset has always been the same: take
+                    something complicated, automate it, and make it dependable.
+                </p>
+
+
+                <p class="closing">
+                    I’m still driven by the same curiosity that started it all — the need to make things work better,
+                    faster, and cleaner. Every project I touch carries that same energy that built Mursy from nothing. I
+                    also love anything related to space — sci‑fi, exploration, technology — if it’s about reaching for
+                    the stars, I’m in.
+                </p>
+
+                <p class="closing">
+                    If you want something simple and
                     dependable — or a partner to take a messy, manual workflow and make it repeatable — let's
                     collaborate. Check my GitHub or hit the
                     contact page to start a convo.
