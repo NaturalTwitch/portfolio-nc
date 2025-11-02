@@ -9,7 +9,7 @@ import profileSrc from '../assets/Me.png';
     <div class="landing-inner">
       <div class="text-block">
         <h1 class="intro">Hello, I'm</h1>
-        <h1 class="fancyName">NaturalTwitch</h1>
+        <h1 class="fancyName">Normand Cardinal</h1>
         <p class="subtitle">Full-Stack Developer • Automation Enthusiast • Creator of Mursy</p>
         <ul class="roles">
           <li>💻 Full-Stack Dev</li>
