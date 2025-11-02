@@ -85,7 +85,7 @@ async function submitForm(e) {
 </script>
 
 <template>
-    <div class="stars"></div>
+    <!-- <div class="stars"></div> -->
     <section class="contact" aria-labelledby="contact-title">
         <div class="contact-inner">
             <div class="contact-left">
@@ -171,7 +171,7 @@ async function submitForm(e) {
     width: 100%;
     height: 100%;
     background: transparent;
-    z-index: 0;
+
 }
 
 .stars::after {
