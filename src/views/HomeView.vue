@@ -187,8 +187,8 @@ import profileSrc from '../assets/Me.png';
 
 .visual-block .avatar {
   width: 280px;
-  border-radius: 12px;
-  border: 1px solid rgba(0, 188, 212, 0.12);
+  border-radius: 300px;
+  border: 0px solid rgba(0, 188, 212, 0.12);
   box-shadow: 0 0 20px rgba(0, 188, 212, 0.06);
 }
 

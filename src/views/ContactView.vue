@@ -85,6 +85,7 @@ async function submitForm(e) {
 </script>
 
 <template>
+    <div class="stars"></div>
     <section class="contact" aria-labelledby="contact-title">
         <div class="contact-inner">
             <div class="contact-left">
@@ -161,6 +162,44 @@ async function submitForm(e) {
     --bg: rgba(12, 12, 14, 0.9);
     --muted: #bfc7cf;
     --text: #e8f6fb;
+}
+
+.stars {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    z-index: 0;
+}
+
+.stars::after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background: white;
+    box-shadow:
+        10vw 20vh white, 30vw 40vh white, 50vw 70vh white, 70vw 10vh white,
+        20vw 90vh white, 60vw 50vh white, 80vw 30vh white, 40vw 60vh white,
+        15vw 40vh white, 35vw 80vh white, 55vw 20vh white, 75vw 60vh white;
+    animation: twinkle 3s infinite alternate;
+    border-radius: 50%;
+}
+
+@keyframes twinkle {
+    0% {
+        opacity: 0.2;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0.2;
+    }
 }
 
 

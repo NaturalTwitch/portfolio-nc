@@ -5,7 +5,9 @@ import profileSrc from '../assets/Me.png';
 </script>
 
 <template>
+    <div class="stars"></div>
     <section class="about" aria-labelledby="about-title">
+
         <div class="about-inner">
             <div class="about-left" aria-hidden="false">
                 <div class="avatar" aria-hidden="true">
@@ -136,6 +138,43 @@ import profileSrc from '../assets/Me.png';
     --glow-strong: 0 0 20px rgba(75, 139, 255, 0.12);
 }
 
+.stars {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    z-index: 0;
+}
+
+.stars::after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background: white;
+    box-shadow:
+        10vw 20vh white, 30vw 40vh white, 50vw 70vh white, 70vw 10vh white,
+        20vw 90vh white, 60vw 50vh white, 80vw 30vh white, 40vw 60vh white,
+        15vw 40vh white, 35vw 80vh white, 55vw 20vh white, 75vw 60vh white;
+    animation: twinkle 3s infinite alternate;
+    border-radius: 50%;
+}
+
+@keyframes twinkle {
+    0% {
+        opacity: 0.2;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0.2;
+    }
+}
 
 .about {
     padding: 36px 20px;
