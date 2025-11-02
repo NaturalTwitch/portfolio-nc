@@ -16,7 +16,7 @@ import profileSrc from '../assets/Me.png';
                     <a class="cta github" :href="'https://github.com/NaturalTwitch'" target="_blank" rel="noopener">
                         GitHub
                     </a>
-                    <RouterLink to="/contact" class="cta ghost">Contact</RouterLink>
+                    <RouterLink to="/projects" class="cta ghost">Projects</RouterLink>
                     <a class="cta ghost" href="/resume.pdf" target="_blank" rel="noopener">Resume</a>
                 </div>
             </div>
@@ -25,21 +25,31 @@ import profileSrc from '../assets/Me.png';
                 <h2 id="about-title" class="about-title">About Me</h2>
 
                 <p class="lead">
-                    Hey — I’m <strong>Norm (NaturalTwitch)</strong>, a full-stack developer who builds automation, bots,
-                    and hosting tools.
-                    I created <em>Mursy</em> (Discord bots, dashboards and tooling) and love shipping tools that make
-                    life easier.
+                    Hey — I’m <strong>Norm (NaturalTwitch)</strong>. I build practical, reliable developer tools:
+                    full‑stack apps, automation, bots, and hosting
+                    infrastructure. I ship work that solves real problems — from Discord bots used by thousands, to
+                    internal dashboards that keep services
+                    running smoothly.
+                </p>
+
+                <p class="lead">
+                    My projects focus on reliability, simplicity, and automation. I founded <em>Mursy</em> — an
+                    ecosystem of Discord bots, dashboards, and
+                    developer tooling — and I maintain supporting infra like the <em>Mursy Anti‑DDoS Dashboard</em> and
+                    Mursy Hosting. I also tinker with
+                    firmware and hardware projects (3D printing, Klipper, and Raspberry Pi automation). I am what many
+                    would call a Jack-of-All-Trades.
                 </p>
 
                 <ul class="highlights" aria-hidden="true">
                     <li><strong>Primary:</strong> JavaScript · Node.js · Vue · PostgreSQL</li>
                     <li><strong>Infra:</strong> Linux · Windows · Nginx</li>
-                    <li><strong>Extras:</strong> Automation · IoT · Game tooling</li>
+                    <li><strong>Extras:</strong> Automation · IoT · Game tooling · DevOps</li>
                 </ul>
 
                 <div class="now">
-                    <p><strong>Now:</strong> Building Mursy Hosting and an invoice dashboard — focusing on reliability,
-                        automation, and developer UX.</p>
+                    <p><strong>Now:</strong> Building and Improving Mursy (Discord Bot), Designing an SaaS Invoicing
+                        Program for Small Businesses, Seeking Full-Stack Opportunities.</p>
                 </div>
 
                 <div class="stats" role="list">
@@ -57,11 +67,22 @@ import profileSrc from '../assets/Me.png';
                     </div>
                 </div>
 
+                <h3 class="about-subtitle">Selected projects</h3>
+                <ul class="highlights" style="margin-top:6px;">
+                    <li><strong>Mursy</strong> — Verified Discord bot platform: moderation, games, economy, music
+                        integration.</li>
+                    <li><strong>Mursy Anti‑DDoS Dashboard</strong> — Monitoring and alerting for service availability.
+                    </li>
+                </ul>
+
                 <p class="closing">
-                    I love sci-fi, Linux boxes, and solving boring problems with clever automation. Want to collab or
-                    see source?
-                    Hit my GitHub or drop a message via Contact.
+                    I love anything that involves space, and solving boring problems with clever automation. If
+                    you want something simple and
+                    dependable — or a partner to take a messy, manual workflow and make it repeatable — let's
+                    collaborate. Check my GitHub or hit the
+                    contact page to start a convo.
                 </p>
+
             </div>
         </div>
     </section>
