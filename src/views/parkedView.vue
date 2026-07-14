@@ -17,7 +17,7 @@
 </template>
 
 <style scoped>
-.parked-page {
+/* .parked-page {
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -25,7 +25,7 @@
   background: linear-gradient(135deg, #0f172a, #1e293b);
   font-family: Inter, Arial, sans-serif;
   color: white;
-}
+} */
 
 .card {
   text-align: center;
