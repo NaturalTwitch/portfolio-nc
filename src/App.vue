@@ -3,19 +3,19 @@ import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
-  <header>
+  <!-- <header>
     <nav>
-      <RouterLink to="/">Home</RouterLink> 
+      <RouterLink to="/">Home</RouterLink>
       <RouterLink to="/about">About</RouterLink>
       <RouterLink to="/projects">Projects</RouterLink>
       <RouterLink to="/contact">Contact</RouterLink>
     </nav>
-  </header>
+  </header> -->
 
   <RouterView />
 </template>
 
-<style scoped>
+<!-- <style scoped>
 :root {
   --nav-color: #00bcd4;
   --nav-hover: #4b8bff;
@@ -73,4 +73,4 @@ nav a:hover {
 nav a:hover::after {
   transform: scaleX(1);
 }
-</style>
+</style> -->
