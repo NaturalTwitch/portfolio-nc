@@ -1,16 +1,16 @@
 <template>
   <div class="parked-page">
     <div class="card">
-      <div class="icon">🚀</div>
+      <div class="icon">🖖</div>
       <h1>Domain Parked</h1>
       <p>
-        This domain is currently reserved and waiting for its next adventure.
+        This domain is currently under construction.
       </p>
 
       <div class="divider"></div>
 
       <small>
-        © {{ new Date().getFullYear() }} All rights reserved.
+        Mursy Industries © {{ new Date().getFullYear() }} All rights reserved.
       </small>
     </div>
   </div>
