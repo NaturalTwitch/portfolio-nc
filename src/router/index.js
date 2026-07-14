@@ -4,10 +4,16 @@ import HomeView from '../views/HomeView.vue'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
+    // {
+    //   path: '/',
+    //   name: 'home',
+    //   component: HomeView,
+    // },
+
     {
       path: '/',
-      name: 'home',
-      component: HomeView,
+      name: 'parked',
+      component: () => import('../views/parkedView.vue'),
     },
     {
       path: '/about',
@@ -26,7 +32,7 @@ const router = createRouter({
       path: '/contact',
       name: 'contact',
       component: () => import('../views/ContactView.vue'),
-    }
+    },
   ],
 })
 
