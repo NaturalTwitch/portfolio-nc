@@ -171,7 +171,7 @@ import profileSrc from '../assets/Me.png';
 
 import * as THREE from 'three';
 import p5 from 'p5';
-import BIRDS from 'vanta/dist/vanta.TOPOLOGY.min';
+import BIRDS from 'vanta/dist/vanta.topology.min';
 
 const vantaRef = ref(null);
 let vantaEffect = null;
