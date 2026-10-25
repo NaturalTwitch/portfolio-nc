@@ -4,16 +4,10 @@ import HomeView from '../views/HomeView.vue'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
-    // {
-    //   path: '/',
-    //   name: 'home',
-    //   component: HomeView,
-    // },
-
     {
       path: '/',
-      name: 'parked',
-      component: () => import('../views/parkedView.vue'),
+      name: 'home',
+      component: HomeView,
     },
     {
       path: '/about',
@@ -33,6 +27,11 @@ const router = createRouter({
       name: 'contact',
       component: () => import('../views/ContactView.vue'),
     },
+    {
+      path: '/roadscope-policy',
+      name: 'roadscope-policy',
+      component: () => import('../views/RoadscopePolicyView.vue'),
+    }
   ],
 })
 
